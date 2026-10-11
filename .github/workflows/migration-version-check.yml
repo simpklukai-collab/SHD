@@ -16,7 +16,7 @@ jobs:
       postgres:
         image: postgres:16
         env:
-          POSTGRES_USER: titanbot
+          POSTGRES_USER: gojobot
           POSTGRES_PASSWORD: titanbot
           POSTGRES_DB: titanbot
         ports:
